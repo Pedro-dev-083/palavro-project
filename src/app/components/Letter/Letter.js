@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export default function Letter({letter, key, answer}) {
     const [letterState, setLetterState] = useState('');
-
+    
     return (
         <input
             class="bg-gray-50 border border-gray-300 
